@@ -8,7 +8,7 @@ class StdUUIDConan(ConanFile):
     license = "https://github.com/Esri/stduuid/blob/master/LICENSE"
     description = "A C++17 cross-platform single-header library implementation for universally unique identifiers"
 
-    # RTC specific triple
+    # Use the OS default to get the right line endings
     settings = "os"
 
     def package(self):

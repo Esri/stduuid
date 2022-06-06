@@ -9,7 +9,7 @@ class StdUUIDConan(ConanFile):
     description = "A C++17 cross-platform single-header library implementation for universally unique identifiers"
 
     # RTC specific triple
-    settings = "platform_architecture_target"
+    settings = "os"
 
     def package(self):
         base = self.source_folder + "/"

@@ -16,6 +16,6 @@ class StdUUIDConan(ConanFile):
         relative = "3rdparty/stduuid/"
 
         # headers
-        self.copy("uuid.h", src=base + "include", dst=relative + "include/stduuid")
+        self.copy("uuid.h", src=base + "include", dst=relative + "include")
 
         # no libraries; header-only
